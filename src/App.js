@@ -1,3 +1,12 @@
+import "./Header";
+import Header from "./Header";
+import About from "./About";
+
 export default function App() {
-  return <h1>God is good</h1>
+  return (
+    <div className="mainContainer">
+      <Header />
+      <About />
+    </div>
+  );
 }
