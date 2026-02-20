@@ -2,6 +2,7 @@ import "./Header";
 import Header from "./Header";
 import About from "./About";
 import NewCard from "./NewCard";
+import ContentSection from "./ContentSection";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <About />
       <NewCard />
+      <ContentSection />
     </div>
   );
 }
