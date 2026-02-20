@@ -43,6 +43,21 @@ code {
   margin-bottom: 1rem;
 }
 
+.card {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.25s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateX(6px);
+}
+
+.card h3:hover {
+  color: hsl(35, 77%, 62%);
+}
+
 /* old styling */
 /* old styling */
 /* old styling */
