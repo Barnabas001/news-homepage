@@ -18,6 +18,25 @@ code {
   padding: 1.5rem;
 }
 
+.btn {
+  border: none;
+  padding: 0.9rem 1.8rem;
+  letter-spacing: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-primary {
+  background: hsl(5, 85%, 63%);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: hsl(240, 100%, 5%);
+  transform: translateY(-2px);
+}
+
 /* old styling */
 /* old styling */
 /* old styling */
