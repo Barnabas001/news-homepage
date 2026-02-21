@@ -1,11 +1,14 @@
 import { useState } from "react";
+import logo from "../assets/images/logo.svg";
+import menu from "../assets/images/icon-menu.svg";
+import iconClose from "../assets/images/icon-menu-close.svg";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="header">
-      <img src="/src/assets/images/logo.svg" alt="logo" />
+      <img src={logo} alt="logo" />
 
       <nav className="desktopNav">
         <a href="home">Home</a>
@@ -16,7 +19,7 @@ export default function Header() {
       </nav>
 
       <img
-        src="/src/assets/images/icon-menu.svg"
+        src={menu}
         alt="menu"
         className="menuIcon"
         onClick={() => setOpen(true)}
@@ -29,7 +32,7 @@ export default function Header() {
 
       <div className={`mobileMenu ${open ? "openMenu" : ""}`}>
         <button className="closeBtn" onClick={() => setOpen(false)}>
-          <img src="/src/assets/images/icon-menu-close.svg" alt="close menu" />
+          <img src={iconClose} alt="close menu" />
         </button>
         <nav className="mobileNav">
           <a href="home">Home</a>
