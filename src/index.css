@@ -58,6 +58,8 @@ body {
 @media (min-width: 900px) {
   .mainGrid {
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
   }
 
   .desktopNav {
@@ -175,7 +177,16 @@ body {
 
 @media (min-width: 900px) {
   .articles {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 900px) {
+  .articles {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: start;
   }
 }
 
