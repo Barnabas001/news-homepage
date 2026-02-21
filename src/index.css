@@ -164,6 +164,15 @@ body {
   gap: 1.5rem;
 }
 
+.articleRow h3 {
+  margin: 0.2rem 0;
+}
+
+.articleRow p {
+  color: hsl(236, 13%, 42%);
+  font-size: 0.9rem;
+}
+
 @media (min-width: 900px) {
   .articles {
     grid-template-columns: repeat(3, 1fr);
@@ -237,4 +246,9 @@ body {
 
 .mobileMenu {
   box-shadow: -10px 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  letter-spacing: 3px;
+  font-size: 0.8rem;
 }

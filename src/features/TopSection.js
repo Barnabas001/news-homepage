@@ -1,4 +1,5 @@
 import Button from "../ui/Button";
+import mobileImage from "../assets/images/mobile.jpg";
 
 export default function TopSection() {
   return (
@@ -8,11 +9,7 @@ export default function TopSection() {
           media="(min-width:900px)"
           srcSet="/src/assets/images/image-web-3-desktop.jpg"
         />
-        <img
-          src="/src/assets/images/mobile.jpg"
-          alt="web3"
-          className="topImage"
-        />
+        <img src={mobileImage} alt="web3" className="topImage" />
       </picture>
 
       <div className="topContent">
