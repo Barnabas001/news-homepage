@@ -58,6 +58,23 @@ code {
   color: hsl(35, 77%, 62%);
 }
 
+.articleRow {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.articleRow:hover {
+  transform: translateY(-6px);
+}
+
+.articleNumber {
+  color: hsl(5, 85%, 63%);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
 /* old styling */
 /* old styling */
 /* old styling */
