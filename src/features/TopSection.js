@@ -8,7 +8,11 @@ export default function TopSection() {
           media="(min-width:900px)"
           srcSet="/src/assets/images/image-web-3-desktop.jpg"
         />
-        <img src="/src/assets/images/mobile.jpg" alt="web3" />
+        <img
+          src="/src/assets/images/mobile.jpg"
+          alt="web3"
+          className="topImage"
+        />
       </picture>
 
       <div className="topContent">
