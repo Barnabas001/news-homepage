@@ -10,12 +10,9 @@ export default function Home() {
       <Header />
 
       <main className="mainGrid">
-        <div>
-          <TopSection />
-          <ArticleList />
-        </div>
-
+        <TopSection />
         <SidebarNews />
+        <ArticleList />
       </main>
     </Container>
   );

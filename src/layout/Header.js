@@ -4,7 +4,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header>
+    <header className="header">
       <img src="/src/assets/images/logo.svg" alt="logo" />
 
       <nav className="desktopNav">
@@ -29,9 +29,9 @@ export default function Header() {
 
       <div className={`mobileMenu ${open ? "openMenu" : ""}`}>
         <button className="closeBtn" onClick={() => setOpen(false)}>
-          X
+          <img src="/src/assets/images/icon-menu-close.svg" alt="close menu" />
         </button>
-        <nav className="desktopNav">
+        <nav className="mobileNav">
           <a href="home">Home</a>
           <a href="new">New</a>
           <a href="popular">Popular</a>
